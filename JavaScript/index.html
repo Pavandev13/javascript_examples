@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+
+   <!-- //Event Bubbling / Capturing -->
+    <!-- <style>
+        div{
+            min-width: 100px;
+            min-height: 100px;
+            padding: 30px;
+            border: 1px solid black
+        }
+    </style> -->
+
 </head>
 <body>
-    <div id="root"></div>
-    <script src="./LocalStorage/LocalStorage.js"></script>
+    <!-- <div id="root"></div> -->
+
+    <!-- Event Bubbling / Capturing -->
+    <!-- <div id="grandParent">
+        <div id="parent">
+            <div id="child"></div>
+        </div>
+    </div> -->
+
+    <!-- Event Delegation 1-->
+    <!-- <div>
+        <ui id="category">
+            <li id="laptops">laptops</li>
+            <li id="cameras">cameras</li>
+            <li id="mobiles">mobiles</li>
+        </ui>
+    </div> -->
+
+    <!-- Event Deleagation 2 (Behaviour Pattern) -->
+     <!-- <div id="form">
+    <input type="text" id="name" data-uppercase>
+    <input type="text" id="pan">
+    <input type="text" id="address">
+     </div> -->
+
+     <!-- Debouncing -->
+      <input type="text" onkeyup="betterFunction()">
+
+    <script src="./Debouncing/Debouncing.js"></script>
 </body>
 </html>
